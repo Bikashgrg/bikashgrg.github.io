@@ -3,10 +3,36 @@ html {
   }
 
 body {
+    height: 100%;
     background-image: url("../images/bg1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
+/* Style the icon bar links */
+.media-icons a {
+  display: block;
+  text-align: center;
+  padding: 12%;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
   /* Profile container */
   .profile {
@@ -131,6 +157,11 @@ body {
     top: 20px;
   }
 
+  .col-container {
+  display: table;
+  width: 100%;
+  }
+
 .custom-bullet li:before
 {
     /*Using a Bootstrap glyphicon as the bullet point*/
@@ -150,24 +181,17 @@ body {
 
 .progress {
     position: relative;
-	height: 25px;
+	  height: 25px;
 }
 .progress > .progress-type {
+  margin: auto;
 	position: absolute;
-	left: 0px;
+	left: 0%;
 	font-weight: 800;
 	padding: 3px 30px 2px 10px;
 	color: rgb(255, 255, 255);
 	background-color: rgba(25, 25, 25, 0.2);
 }
-.progress > .progress-completed {
-	position: absolute;
-	right: 0px;
-	font-weight: 800;
-	padding: 3px 10px 2px;
-}
-
-
 
 .box {
     position:relative;
@@ -230,3 +254,4 @@ body {
   background: #DDD;
   margin-bottom: 20px;
 }
+
