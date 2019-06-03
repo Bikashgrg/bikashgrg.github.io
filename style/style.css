@@ -10,6 +10,10 @@ body {
   }
 
 /* Style the icon bar links */
+.media-icons {
+  margin-left: 20%;
+  margin-right: 20%;
+}
 .media-icons a {
   display: block;
   text-align: center;
@@ -17,6 +21,11 @@ body {
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
+}
+
+.fa-github {
+  background: #211f1f;
+  color: white;
 }
 
 .fa-twitter {
@@ -254,4 +263,5 @@ body {
   background: #DDD;
   margin-bottom: 20px;
 }
+
 
