@@ -38,11 +38,6 @@ body {
   color: white;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
   /* Profile container */
   .profile {
     margin: 20px 0;
@@ -263,5 +258,3 @@ body {
   background: #DDD;
   margin-bottom: 20px;
 }
-
-
