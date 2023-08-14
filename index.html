@@ -73,15 +73,15 @@
                             <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <!-- Overview -->
-                        <h1 class="text-primary" style="font-family: 'Calibri'">Overview<br></h1>
+                        <h1 class="text-primary style="font-family: 'Calibri'">Overview<br></h1>
                         <blockquote class="blockquote">
-                            <p class="text-primary" style="font-family: 'Calibri'"><b>Hi there,</b></p>
-                            <p class="text-primary" style="font-family: 'Calibri'">I am Bikash Gurung. Recently completed my MSc degree in Artificial Intelligence (Machine Learning) from Liverpool John Moores University with distinction. With a strong background in artificial intelligence and programming, and a passion for using data to solve complex problems, I am confident that I would be a valuable asset to your team. 
-				    I've worked professionaly for almost 2 years as a <b>Management Trainee at SHL</b> from Sep 2019 to Apr 2021 and also previous to that I've done 4 months of internship as an <b>Programmer Analyst Trainee at Cognizant.</b><br/>
-				    In addition to my technical skills, I am an excellent communicator and thrive in collaborative and agile environments. I have a proven track record of working effectively with cross-functional teams and can work independently to drive projects forward. 
+                            <p class="text-basic" style="font-family: 'Calibri'"><b>Hi there,</b></p>
+                            <p class="text-basic" style="font-family: 'Calibri'">I am Bikash Gurung. With a strong background in AI and programming, along with a passion for using data to solve complex problems, 
+				    I have experience in developing machine learning models. With over two years of professional experience, including a programmer analyst trainee internship, 
+				    I have a proven track record of working effectively with cross-functional teams and can work independently to drive projects forward. 
+				    In addition to my technical skills, I excel at communication, critical thinking and thrive in collaborative and agile environments.
                             </p>
-                            <p class="text-basic" style="font-family: 'Calibri'">Elegance in solving a problem is my sole motto while approaching a problem. I prefer learning by trial, rather than trying to grasp all-at-once. I enjoy playing football, guitar and reading books.
-                            </p>
+                        
                         </blockquote>
 
                         <!-- Experience section -->
@@ -91,26 +91,14 @@
                         </div>
                         <h1 class="text-primary" style="font-family: 'Calibri'"><a name="exp"></a>Professional Experience<br><small>My work experience so far!</small></h1> <hr>
                         <div class="row">
-                            <div class="col-sm-6">
-                                <h4 class="bg-info">Aspiring Minds (an SHL company) <br/><small>September 2019 - April 2021</small></h4>
+                            <div class="col-sm-12">
+                                <h4 class="bg-info">Data Analyst - SHL, Gurugram, India<br/><small>September 2019 - April 2021</small></h4>
                             </div>
-                            <div class="col-sm-6">
-                                <blockquote class="blockquote">
-                                    <p><small><i>Developed and deployed Computer Science (CS) assessments from start to finish. Compatibility testing of created content and codes. 
-                                        Engaged external subject matter experts to build CS skills modules. Guided newly hired staff regarding the process of work and distribute suitable 
-                                        workloads. Collaborated with other teams to ensure cross-departmental continuity.</i></small></p>
-                                </blockquote>
-                            </div>
+                            
                         </div>
                         <div class="row">
-                            <div class="col-sm-6">
-                                <h4 class="bg-info">Cognizant<br/><small>January 2019 - May 2019</small></h4>
-                            </div>
-                            <div class="col-sm-6">
-                                <blockquote class="blockquote">
-                                    <p><small><i>Worked with a diverse, experienced, and agile team to design requirements, investigate, and develop end-to-end solutions.
-                                         Internship experience led to full-time job offer after succeeding in creating, coding, and debugging skills.</i></small></p>
-                                </blockquote>
+                            <div class="col-sm-12">
+                                <h4 class="bg-info">Intern (Programmer Analyst Trainee) - Cognizant, Pune, India<br/><small>January 2019 - May 2019</small></h4>
                             </div>
                         </div>
 
@@ -121,10 +109,38 @@
                 </div>
                 <h1 class="text-primary" style="font-family: 'Calibri'"><a name="projects"></a>Projects<br><small>What I've made till date</small>
                 </h1>
-
-                <h2 align="middle">Bird species detection using Deep Learning (DL)</h2> <hr>
-
+			    
+                <h2 align="middle">Bird species detection web application</h2><hr>
 			    <ul class="custom-bullet">
+                    <li style="font-family: 'Calibri'; font-size: 18px">Created a Flask web application that communicates with a TensorFlow server hosted in Docker through gRPC, allowing users to upload bird images 
+                        to detect bird species. </li>
+                    <li style="font-family: 'Calibri'; font-size: 18px">Bootstrap and HTML/CSS is used to design the website.</li>
+                    <li style="font-family: 'Calibri'; font-size: 18px">Image uploads is restricted to the following extension only (.jpg, .jpeg, .png).</li>
+                </ul>
+                <a href="https://github.com/Bikashgrg/Enterprise-solution-for-bird-species-detection-model" target="_blank" class="btn btn-primary center-block">See Project On GitHub</a> 
+		<br>
+		
+		<h2 align="middle">Higgs boson detection using Accelerated Machine Learning</h2><hr>
+		<ul class="custom-bullet">
+                    <li style="font-family: 'Calibri'; font-size: 18px">On the basis of the HIGGS dataset, the Random Forest (RF) model and XGBoost (for comparison) were used to train datasets for classifying Higgs boson signal from background signal using RAPIDS accelerated framework.</li>
+                    <li style="font-family: 'Calibri'; font-size: 18px">Furthermore, a comparison has been done to determine how well each model performs on the CPU and GPU (used RAPIDS on Nvidia RTX 3090).</li>
+                    <li style="font-family: 'Calibri'; font-size: 18px">In the RF and XGBoost models, the GPU is over 177 times and 300 times quicker than the CPU, respectively, allowing for significant time savings that can be leveraged to improve the model.</li>
+                    <li style="font-family: 'Calibri'; font-size: 18px">In terms of accuracy, the CPU performed slightly better than the GPU in both models when the same parameter was utilized.</li>
+                </ul>
+                <a href="https://github.com/Bikashgrg/Higgs-boson-detection-using-Accelerated-Machine-Learning" target="_blank" class="btn btn-primary center-block">See Project On GitHub</a>
+                <br>	    
+		
+                <h2 align="middle">Environmental sound classification for crime detection</h2><hr>
+			    <ul class="custom-bullet">
+                    <li style="font-family: 'Calibri'; font-size: 18px">The MLP (Multi Layer Perceptron) and Random Forest model has been used to classify the environmental sound that may be used for crime scene investigations.</li>
+                    <li style="font-family: 'Calibri'; font-size: 18px">The model has been saved in .h5 (1.3 MB) and.joblib (150.6 MB) formats for MLP and RF respectively. </li>
+                    <li style="font-family: 'Calibri'; font-size: 18px">MLP model performs best with an accuracy of 92.73 %, whereas RF model performs best with an accuracy of 61.11 %, indicating that MLP performs better than RF on audio or time series data. </li>
+                </ul>
+                <a href="https://github.com/Bikashgrg/Environmental-sound-classification-for-crime-detection" target="_blank" class="btn btn-primary center-block">See Project On GitHub</a>
+                <br>
+			    
+		<h2 align="middle">Object detection using Deep Learning (DL)</h2> <hr>
+		<ul class="custom-bullet">
                     <li style="font-family: 'Calibri'; font-size: 18px">To create a DL model, Faster R-CNN with ResNet 101 model has been used in this project to train datasets to classify three bird species. 
                         Furthermore, a comparison with the SSD MobileNet model has been made to assess how this model compares.</li>
                     <li style="font-family: 'Calibri'; font-size: 18px"></li>
@@ -133,35 +149,6 @@
                     <li style="font-family: 'Calibri'; font-size: 18px">With 10 thousand steps during training, Faster R-CNN achieved above 90% of the accuracy, whereas SSD MobileNet achieved approximately 72% accuracy with 20 thousand steps.</li>
                 </ul>  
                 <a href="https://github.com/Bikashgrg/Bird-Species-Detection-using-Deep-learning" target="_blank" class="btn btn-primary center-block">See Project On GitHub</a> 
-                <br>
-			    
-                <h2 align="middle">Enterprise solution for bird species classification model</h2><hr>
-			    <ul class="custom-bullet">
-                    <li style="font-family: 'Calibri'; font-size: 18px">Created a Flask web application that communicates with a TensorFlow server hosted in Docker through gRPC, allowing users to upload bird images 
-                        for classification and view the output results. </li>
-                    <li style="font-family: 'Calibri'; font-size: 18px">Bootstrap and HTML/CSS is used to design the website.</li>
-                    <li style="font-family: 'Calibri'; font-size: 18px">Image uploads is restricted to the following extension only (.jpg, .jpeg, .png).</li>
-                </ul>
-                <a href="https://github.com/Bikashgrg/Enterprise-solution-for-bird-species-detection-model" target="_blank" class="btn btn-primary center-block">See Project On GitHub</a> 
-			    <br>
-			    
-			    <h2 align="middle">Higgs boson detection using Accelerated Machine Learning</h2><hr>
-			    <ul class="custom-bullet">
-                    <li style="font-family: 'Calibri'; font-size: 18px">On the basis of the HIGGS dataset, the Random Forest (RF) model and XGBoost (for comparison) were used to train datasets for classifying Higgs boson signal from background signal using RAPIDS accelerated framework.</li>
-                    <li style="font-family: 'Calibri'; font-size: 18px">Furthermore, a comparison has been done to determine how well each model performs on the CPU and GPU (used RAPIDS on Nvidia RTX 3090).</li>
-                    <li style="font-family: 'Calibri'; font-size: 18px">In the RF and XGBoost models, the GPU is over 177 times and 300 times quicker than the CPU, respectively, allowing for significant time savings that can be leveraged to improve the model.</li>
-                    <li style="font-family: 'Calibri'; font-size: 18px">In terms of accuracy, the CPU performed slightly better than the GPU in both models when the same parameter was utilized.</li>
-                </ul>
-                <a href="https://github.com/Bikashgrg/Higgs-boson-detection-using-Accelerated-Machine-Learning" target="_blank" class="btn btn-primary center-block">See Project On GitHub</a>
-                <br>
-
-                <h2 align="middle">Environmental sound classification for crime detection</h2><hr>
-			    <ul class="custom-bullet">
-                    <li style="font-family: 'Calibri'; font-size: 18px">The MLP (Multi Layer Perceptron) and Random Forest model has been used to classify the environmental sound that may be used for crime scene investigations.</li>
-                    <li style="font-family: 'Calibri'; font-size: 18px">The model has been saved in .h5 (1.3 MB) and.joblib (150.6 MB) formats for MLP and RF respectively. </li>
-                    <li style="font-family: 'Calibri'; font-size: 18px">MLP model performs best with an accuracy of 92.73 %, whereas RF model performs best with an accuracy of 61.11 %, indicating that MLP performs better than RF on audio or time series data. </li>
-                </ul>
-                <a href="https://github.com/Bikashgrg/Environmental-sound-classification-for-crime-detection" target="_blank" class="btn btn-primary center-block">See Project On GitHub</a>
                 <br>
 			         
                     <div class="progress1">
